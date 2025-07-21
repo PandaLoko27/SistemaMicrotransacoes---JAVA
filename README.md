@@ -34,8 +34,7 @@ SistemaMicrotransacoes---JAVA/
 |         └── EurekaServerApplication.java
 |         ├── application.yml
 |         ├── pom.xlm
-|
-|
+
 ```
 
 
