@@ -12,6 +12,32 @@ Este projeto é uma aplicação Java baseada em microsserviços, desenvolvida co
 - ✅ Roteamento centralizado com API Gateway
 
 ---
+## 📦 Estrutura do Projeto
+
+```
+SistemaMicrotransacoes---JAVA/
+├── README.md
+├── catalogo-pedidos/
+│   └── Pedido Service
+|         └── AppConfig.java/
+|         ├── Pedido.java/
+|         ├── PedidoController.java/
+|         ├── Application.yml/
+|   └── Produto Service
+|         └── Produto.java
+|         ├── ProdutoController.java
+|         ├── application.yml
+|   └── api-gateway
+|         └── application.yml
+|         |── pom.xlm
+|   └── eureka-server
+|         └── EurekaServerApplication.java
+|         ├── application.yml
+|         ├── pom.xlm
+|
+|
+```
+
 
 ## 🧱 Arquitetura
 
